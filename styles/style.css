@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #211951;
+    color: #f0f3ff;
+    display: flex; /* Utilizar flexbox */
+    flex-direction: column; /* Apilar elementos en una columna */
+    min-height: 100vh; /* Ocupar al menos el 100% del viewport vertical */
+}
+
+.logo {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border: 2px solid #15f5ba;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #15f5ba;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: #bbb1ff;
+}
+
+.inputMessage {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #ffffff; /* Cambia esto al color de fuente que desees */
+    border: 3px solid transparent; /* Cambia esto al color de borde que desees */
+    font-size: 1.6rem;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+.inputMessage::placeholder {
+    color: #ffffff; /* Cambia esto al color de fuente que desees */
+}
+
+.inputMessage:focus {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #15f5ba; /* Cambia esto al color de borde que desees */
+    border: 3px solid #15f5ba; /* Cambia esto al color de borde que desees */
+}
+
+.inputMessage:focus::placeholder {
+    color: #15f5ba; /* Cambia esto al color de fuente que desees */
+}
+
+#encrypt-btn {
+    background-color: #15f5ba; /* Cambia esto al color de fondo que desees */
+    color: #211951; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+    font-size: 1.6rem;
+}
+
+#encrypt-btn:hover {
+    background-color: #f0f3ff; /* Cambia esto al color de fondo que desees */
+    color: #211951; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #f0f3ff; /* Cambia esto al color de borde que desees */
+}
+
+#decrypt-btn {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #ffffff; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+    font-size: 1.6rem;
+}
+
+#decrypt-btn:hover {
+    background-color: #eb3678; /* Cambia esto al color de fondo que desees */
+    color: #f0f3ff; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #eb3678; /* Cambia esto al color de borde que desees */
+}
+
+#response-container {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #f0f3ff;
+}
+
+.messageProcess {
+    background-color: #f0f3ff;
+    color: #211951; /* Cambia esto al color de fuente que desees */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#copyMessage {
+    background-color: #15f5ba; /* Cambia esto al color de fondo que desees */
+    color: #211951; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+}
+
+#saveMessage {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #f0f3ff; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+}
+
+#saveMessage:hover {
+    background-color: #eb3678; /* Cambia esto al color de fondo que desees */
+    color: #f0f3ff; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #eb3678; /* Cambia esto al color de borde que desees */
+}
+
+#copyMessage:hover {
+    background-color: #f0f3ff; /* Cambia esto al color de fondo que desees */
+    color: #211951; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #f0f3ff; /* Cambia esto al color de borde que desees */
+}
+
+.copy {
+    background-color: transparent; /* Cambia esto al color de fondo que desees */
+    color: #000000; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+}
+
+.copy:hover {
+    background-color: #15f5ba; /* Cambia esto al color de fondo que desees */
+    color: #000000; /* Cambia esto al color de fuente que desees */
+    border: 1px solid #15f5ba; /* Cambia esto al color de borde que desees */
+}
+
+footer {
+    background-color: #836fff;
+    margin-top: auto; /* Mantener el pie de página siempre abajo */
+    padding: 20px; /* Añadir relleno opcional al pie de página */
+    text-align: center; /* Centrar el texto dentro del pie de página */
+}
